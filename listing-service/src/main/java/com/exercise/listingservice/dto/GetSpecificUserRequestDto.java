@@ -1,23 +1,30 @@
 package com.exercise.listingservice.dto;
 
-public class GetListingsRequestDto {
-
-    private Integer userId;
+public class GetSpecificUserRequestDto {
+    private Integer Id;
+    private String name;
     private Integer pageNum;
     private Integer pageSize;
 
-    public Integer getUserId() {
-        return userId;
+    public Integer getId() {
+        return Id;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setId(Integer d) {
+        this.Id = Id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Integer getPageNum() {
         return pageNum;
     }
-
     public void setPageNum(Integer pageNum) {
         this.pageNum = pageNum;
     }
@@ -25,7 +32,6 @@ public class GetListingsRequestDto {
     public Integer getPageSize() {
         return pageSize;
     }
-
     public void setPageSize(Integer pageSize) {
         this.pageSize = pageSize;
     }

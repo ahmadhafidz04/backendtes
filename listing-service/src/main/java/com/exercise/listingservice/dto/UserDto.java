@@ -10,6 +10,7 @@ public class UserDto {
     public Integer getId() {
         return Id;
     }
+
     public void setId(Integer id) {
         Id = id;
     }
@@ -17,6 +18,7 @@ public class UserDto {
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -24,6 +26,7 @@ public class UserDto {
     public Long getCreateAt() {
         return createAt;
     }
+
     public void setCreateAt(Long createAt) {
         this.createAt = createAt;
     }
@@ -31,6 +34,7 @@ public class UserDto {
     public Long getUpdateAt() {
         return updateAt;
     }
+
     public void setUpdateAt(Long updateAt) {
         this.updateAt = updateAt;
     }

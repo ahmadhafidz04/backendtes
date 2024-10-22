@@ -6,7 +6,7 @@ public interface UserService {
 
     GetUsersResponseDto getUsers(GetUsersRequestDto requestDto);
 
-    GetSpesificUserResponseDto getUser(GetUsersResponseDto requestDto, Long id);
+    GetSpecificUserResponseDto getUser(GetSpecificUserRequestDto requestDto);
 
     CreateUserResponseDto createUser(CreateUserRequestDto requestDto);
 }
